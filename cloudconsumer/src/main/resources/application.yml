@@ -1,0 +1,7 @@
+server:
+  port: 80
+eureka:
+  client: #客户端注册进eureka服务列表内
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://eureka01.com:7001/eureka/,http://eureka02.com:7002/eureka/,http://eureka03.com:7003/eureka/
